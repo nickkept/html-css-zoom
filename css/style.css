@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.general-container{
+    background-color: rgb(0, 0, 0);
+    
+    
+    
+}
+
+.header-container{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+    
+    padding: 2vh 0;
+}
+
+.main-container{
+    background-color: bisque;
+    display: flex;
+    flex-grow: 9;
+}
+
+.footer-container{
+    background-color: rgb(36, 35, 35);
+    display: flex;
+    flex-grow: 1;
+    color: white;
+    justify-content: space-between;
+}
+
+.btn{
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    border: none;
+    font-weight: bold;
+    margin-right: 0.3rem;
+    color: white;
+    background-color: rgba(150, 144, 144, 0.381);
+}
+.btn-small{
+    border-radius: 8px;
+    padding: 0.5rem 0.5rem;
+    border: none;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(150, 144, 144, 0.381);
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 0.5rem;
+    column-gap: 1.5rem;
+}
+
+
+
+.icon-container{
+display: flex;
+align-items: center;
+justify-content: center;
+padding-right: 0.7rem;
+}
+
+i{
+    font-size:smaller;
+}
+.little-container{
+padding:1rem 0.5rem;
+}
+
+img{
+    flex-basis: calc(100 / 7 );
+}
+.icon-group{
+    display: flex;
+}
+
+.grn{
+    color: limegreen;
+}
+
+.end-meeting{
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    background-color: rgba(150, 144, 144, 0.381);
+    padding: 1.5rem 1rem;
+}
