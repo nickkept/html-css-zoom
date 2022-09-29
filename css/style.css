@@ -16,12 +16,12 @@
     display: flex;
     justify-content: flex-end;
     flex-grow: 1;
-    
-    padding: 2vh 0;
+    flex-shrink: 0;
+    padding: 1vh 2vh;
 }
 
 .main-container{
-    background-color: bisque;
+    background-color: rgb(0, 0, 0);
     display: flex;
     flex-grow: 9;
 }
@@ -30,6 +30,7 @@
     background-color: rgb(36, 35, 35);
     display: flex;
     flex-grow: 1;
+    flex-shrink: 0;
     color: white;
     justify-content: space-between;
 }
@@ -54,9 +55,11 @@
 
 .card-container{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    row-gap: 0.5rem;
-    column-gap: 1.5rem;
+    row-gap: 0.6rem;
+    column-gap: 0.3rem;
+    padding: 2vh 10vh;
 }
 
 
@@ -70,13 +73,34 @@ padding-right: 0.7rem;
 
 i{
     font-size:smaller;
+    color: white;
 }
 .little-container{
 padding:1rem 0.5rem;
 }
 
+.card {
+    position: relative;
+    flex-basis: calc((100% - 60px) / 7);
+    flex-grow: 1;
+    display: block;
+
+    
+}
+
 img{
-    flex-basis: calc(100 / 7 );
+height: auto;
+width: 100%;
+
+}
+
+.user-name{
+    color: white;
+    padding: .3rem;
+    font-size: 1rem;
+    background-color:rgba(150, 144, 144, 0.381);
+    position: absolute;
+    top: 79%;
 }
 .icon-group{
     display: flex;
